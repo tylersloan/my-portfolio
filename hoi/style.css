@@ -34,7 +34,21 @@ h1 {
 }
 
 h2 {
-	font-size: 60px;
+	font-size: 40px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+small {
+	font-size: 16px;
+	font-weight: 400;
+	font-style: italic;
+	font-family: 'Playfair Display', serif;
+	padding: 0;
+	margin: 0;
 }
 
 h3 {
@@ -370,7 +384,7 @@ textarea:focus {
 	padding: 0px;
 	padding-top: 10px;
 	font-size: 16px;
-	color: #ebebeb;
+	color: red;
 }
 
 .ss-left {
@@ -406,11 +420,20 @@ textarea:focus {
 
 /* End HOI */
 
+/* Batch Maker */
+
+.batmak {
+	color: #254A5D;
+}
+
+/* End Batch Maker */
+
 /* Footer */
 
 footer {
 	padding: 3% 5% 3% 5%;
 	margin: 0 auto;
+	margin-top: 25px;
 	background: rgba(255,255,255,.85);
 	border-top: 3px solid #acacac;
 	text-align: left;
